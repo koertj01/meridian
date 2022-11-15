@@ -1,7 +1,8 @@
 # meridian
-Meridian Realms core website
-=======
-![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
+
+# Meridian Realms core website
+
+![meridian-nextjs-banner](/public/static/images/meridianrealms.png)
 
 # Meridian Realms Blog repo
 
@@ -11,10 +12,10 @@ Meridian Realms core website
 2. run npm install
 3. npm run dev
 4. Profit
+
 ```
 some text
 ```
-
 
 2. Personalize `siteMetadata.js` (site related information)
 3. Modify the content security policy in `next.config.js` if you want to use
@@ -140,4 +141,3 @@ The API routes used in the newsletter component cannot be used in a static site 
 
 **Google App Engine**
 Apart from changes mentioned above for `next/image`, configurations should be changed based on recommendations [here](https://github.com/vercel/next.js/discussions/12474#discussioncomment-17844) in order to set up the project for GAE deployment.
-
