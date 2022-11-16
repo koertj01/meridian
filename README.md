@@ -1,5 +1,3 @@
-# meridian
-
 # Meridian Realms core website
 
 ![meridian-nextjs-banner](/public/static/images/meridianrealms.png)
