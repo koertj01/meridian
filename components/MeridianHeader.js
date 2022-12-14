@@ -1,4 +1,5 @@
 import MCard from './MeridianCard'
+import Carousel from './MeridianCarousel'
 
 //Component used to draw the custom header for meridian
 const MeridianHeader = (props) => {
@@ -20,7 +21,8 @@ const MeridianHeader = (props) => {
           </ul>
         </MCard>
         <MCard title="" imgSrc="" href="">
-          <p>Insert component to draw screenshots of builds</p>
+          {/* <p>Insert component to draw screenshots of builds</p> */}
+          <Carousel />
         </MCard>
       </div>
     </div>
